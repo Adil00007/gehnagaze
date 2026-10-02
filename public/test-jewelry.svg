@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1125" role="img" aria-labelledby="title desc">
+  <title id="title">Gold hoop earrings on a warm ivory background</title>
+  <desc id="desc">A simple editorial product image used for local storefront testing.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#efe4cf"/>
+      <stop offset="1" stop-color="#c9ad7a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="38%" r="58%">
+      <stop offset="0" stop-color="#fff7e5" stop-opacity=".86"/>
+      <stop offset="1" stop-color="#fff7e5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff1ae"/>
+      <stop offset=".34" stop-color="#dca84e"/>
+      <stop offset=".68" stop-color="#9a6322"/>
+      <stop offset="1" stop-color="#f5d678"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#5a3a19" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <rect width="900" height="1125" fill="url(#bg)"/>
+  <rect width="900" height="1125" fill="url(#glow)"/>
+  <path d="M120 930c160-95 500-88 680 0" fill="none" stroke="#8b6c3b" stroke-opacity=".18" stroke-width="2"/>
+  <g fill="none" stroke="url(#gold)" stroke-width="26" filter="url(#shadow)">
+    <circle cx="330" cy="520" r="172"/>
+    <circle cx="570" cy="520" r="172"/>
+  </g>
+  <g fill="#fff2b4" stroke="#c18b32" stroke-width="7">
+    <circle cx="330" cy="348" r="20"/>
+    <circle cx="570" cy="348" r="20"/>
+  </g>
+  <g fill="#f8e7a1" opacity=".7">
+    <circle cx="255" cy="408" r="8"/>
+    <circle cx="626" cy="430" r="8"/>
+    <circle cx="411" cy="690" r="7"/>
+  </g>
+  <text x="450" y="1000" text-anchor="middle" fill="#4b351e" font-family="Georgia, serif" font-size="25" letter-spacing="8">GEHNA GAZE</text>
+</svg>
